@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>DocRank - Konten Dokumen</title>
+</head>
+<body style="background-color: #f9fef9;">
+    <div class="container mt-5">
+        <h1 class="text-success text-center mb-4">Konten Dokumen</h1>
+        <p class="text-muted"><strong>Nama File:</strong> {{ filename }}</p>
+
+        <!-- Tombol di bagian atas -->
+        <div class="d-flex justify-content-center mb-4">
+            {% if download_link %}
+                <a href="{{ download_link }}" class="btn btn-success me-2" target="_blank">Unduh Dokumen</a>
+            {% endif %}
+            {% if source_url %}
+                <a href="{{ source_url }}" class="btn btn-outline-success" target="_blank">Baca Artikel Asli</a>
+            {% endif %}
+        </div>
+
+        <!-- Konten Dokumen -->
+        <div class="card shadow p-4 mt-3 border-success">
+            <h3 class="card-title text-success">Konten</h3>
+            <p class="card-text">{{ content }}</p>
+        </div>
+
+        <!-- Frekuensi Kata Dasar -->
+        <div class="card shadow p-4 mt-3 border-success">
+            <h3 class="card-title text-success">Frekuensi Kata Dasar</h3>
+            <ul class="list-group">
+                {% for token, count in token_counts.items() %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ token }}
+                        <span class="badge bg-success rounded-pill">{{ count }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Tombol Kembali -->
+        <a href="/" class="btn btn-outline-success mt-4">Kembali ke Halaman Utama</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
