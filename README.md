@@ -32,11 +32,11 @@ pip install rank-bm25
 ## Cara Menjalankan
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/bangaji313/DocRank-IR-Project.git
+   git clone https://github.com/codedreamerD/UAS-IR-Project.git
    ```
    **Masuk ke Folder Proyek**
    ```bash
-   cd DocRank-IR-Project
+   cd UAS-IR-Project
    ```
 2. **Jalankan Aplikasi**
    ```bash
