@@ -32,7 +32,7 @@ pip install rank-bm25
 ## Cara Menjalankan
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/codedreamerD/UAS-IR-Project.git
+   git clone https://github.com/codedreamerD/UAS-Project.git
    ```
    **Masuk ke Folder Proyek**
    ```bash
@@ -63,7 +63,7 @@ pip install rank-bm25
    Klik tombol "Fork" di bagian atas repository ini untuk membuat salinan ke akun GitHub Anda.
 2. **Clone Fork**
    ```bash
-   git clone https://github.com/your-username/UAS-IR-Project.git
+   git clone https://github.com/your-username/UAS-Project.git
    ```
 3. **Buat Branch Baru**
    Buat branch untuk fitur atau perbaikan yang ingin Anda tambahkan
