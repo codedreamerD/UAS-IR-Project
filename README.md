@@ -1,6 +1,6 @@
-# DocRank: Aplikasi Temu Balik Informasi dengan BM25
+# Aplikasi Temu Balik Informasi dengan BM25
 
-**DocRank** adalah aplikasi berbasis web yang dirancang untuk melakukan temu balik informasi (information retrieval) pada dokumen bertema **pengobatan dan kesehatan herbal**. Aplikasi ini menggunakan metode **BM25** untuk menghitung relevansi dokumen terhadap query pengguna.
+Aplikasi berbasis web yang dirancang untuk melakukan temu balik informasi (information retrieval) pada dokumen bertema **pengobatan dan kesehatan herbal**. Aplikasi ini menggunakan metode **BM25** untuk menghitung relevansi dokumen terhadap query pengguna.
 
 ## Fitur Utama
 1. **Proses Ekstraksi dan Preprocessing Dokumen**
@@ -63,7 +63,7 @@ pip install rank-bm25
    Klik tombol "Fork" di bagian atas repository ini untuk membuat salinan ke akun GitHub Anda.
 2. **Clone Fork**
    ```bash
-   git clone https://github.com/your-username/DocRank-IR-Project.git
+   git clone https://github.com/your-username/UAS-IR-Project.git
    ```
 3. **Buat Branch Baru**
    Buat branch untuk fitur atau perbaikan yang ingin Anda tambahkan
@@ -80,5 +80,3 @@ pip install rank-bm25
    ```
 6. **Ajukan PULL Request**
    Kunjungi halaman repository asli dan ajukan pull request untuk menggabungkan perubahan Anda.
-
-## Terima kasih telah menggunakan dan mendukung proyek DocRank!
