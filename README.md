@@ -36,7 +36,7 @@ pip install rank-bm25
    ```
    **Masuk ke Folder Proyek**
    ```bash
-   cd UAS-IR-Project
+   cd UAS-Project
    ```
 2. **Jalankan Aplikasi**
    ```bash
